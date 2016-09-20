@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: users-war
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: 16
+Specification-Title: users-war
+Implementation-Vendor-Id: com.github
+Build-Jdk: 1.8.0_101
+Specification-Version: 0.0.1-SNAPSHOT
+Created-By: Maven Integration for Eclipse
+
