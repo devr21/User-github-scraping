@@ -1,0 +1,108 @@
+1  cd /f/GitRepo/
+    2  mkdir test
+    3  ls
+    4  rmdir test/
+    5  df -h
+    6  htop
+    7  du -sh /
+    8  mkdir gituserscraping
+    9  git clone https://github.com/devr21/User-github-scraping.git
+   10  git branch
+   11  cd User-github-scraping/
+   12  git branch
+   13  git branch branch_1.0
+   14  ls
+   15  git help
+   16  git status
+   17  git branch List
+   18  git help -a
+   19  git branch
+   20  git checkout branch_1.1
+   21  git branch
+   22  ls
+   23  git checkout branch_1.0
+   24  ls
+   25  git checkout branch_1.1
+   26  la
+   27  l
+   28  sls
+   29  ls
+   30  echo "trying new things" >> a.txt
+   31  cat a.txt
+   32  git pull origin branch_1.0
+   33  ls
+   34  cat a.txt
+   35  git status
+   36  git add a.txt a.txt
+   37  git commit -m "Test"
+   38  git push origin branch_1.0
+   39  git push origin branch_1.1
+   40  git merge branch_1.1
+   41  git checkout branch_1.0
+   42  git merge branch_1.1
+   43  ls
+   44  git log
+   45  git revert -m 1
+   46  git revert -m 1 421922417025df5b2a3533ac73b70ec9cd042805
+   47  git revert -m 1 0e37758c92675860820aa8781e4a7d895bb1a8be
+   48  git checkout branch_1.1
+   49  git log
+   50  git revert -m 1 0e37758c92675860820aa8781e4a7d895bb1a8be
+   51  cat a.txt
+   52  git checkout branch_1.0
+   53  cat a.txt
+   54  git push origin branch_1.0
+   55  git status
+   56  git log
+   57  git checkout branch_1.1
+   58  git log
+   59  echo "More lines" >> a.txt
+   60  cat a.txt
+   61  git add a.txt
+   62  git status
+   63  git commit -m "More line"
+   64  git status
+   65  git checkout branch_1.0
+   66  git merge branch_1.1
+   67  cat a.txt
+   68  git status
+   69  git log
+   70  git pull origin branch_1.1
+   71  git reflog
+   72  git reflog --relative-date
+   73  git revert -m 1 33188db
+   74  git reset --hard 33188db
+   75  git status
+   76  cat a.txt
+   77  git reset --hard 0e37758
+   78  cat a.txt
+   79  git help
+   80  git help workflows
+   81  git help pull
+   82  git show
+   83  git checkout branch_1.1
+   84  git show
+   85  git status
+   86  cat a.txt
+   87  git add a.txt
+   88  git push origin branch_1.1
+   89  git checkout branch_1.0
+   90  git status
+   91  git add .
+   92  git commit -m "debug.log text"
+   93  git config --global --edit
+   94  git status
+   95  cat a.txt
+   96  git fetch -p
+   97  cat a.txt
+   98  git pull -p
+   99  git fetch -p
+  100  git merge origin branch_1.0
+  101  git branch -f --track branch_1.0 origin/branch_1.0
+  102  git --set-upstream-to=origin/branch_1.0
+  103  git branch --set-upstream-to=origin/branch_1.0
+  104  git branch --track branch_1.0 origin/branch_1.0
+  105  git pull
+  106  cat a.txt
+  107  history
+
